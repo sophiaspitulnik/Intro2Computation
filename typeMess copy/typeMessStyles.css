@@ -1,0 +1,119 @@
+body {
+	margin:0;
+	text-align: justify;
+	font-size: 10pt;
+	font-family: helvetica;
+}
+
+
+.container {
+	/*display:flex;*/
+	width: 100%;
+	height: 100%;
+	padding: -5%;
+	position: relative;
+}
+
+.color1 {
+	color: rgba(230, 200, 40, 0.5);
+	/*flex-wrap: wrap;*/
+	/*flex-basis: 100%;*/
+	position:fixed;
+	width: 115%;
+	height: 115%;
+	padding: 0;
+	z-index: -1;
+	/*overflow: hidden;*/
+
+}
+
+.color2 {
+	color: rgba(220, 100, 100, 0.3);
+	position:fixed;
+	line-height: 0.8em;
+	width: 115%;
+	height: 115%;
+	padding: 0;
+	z-index: -2;
+}
+
+.color3 {
+	color: rgba(220, 255, 40, 0.5);
+	position: fixed;
+	line-height: 2em;
+	width: 115%;
+	height: 115%;
+	padding:0;
+	z-index: -3;
+	
+}
+
+.color4 {
+	color: rgba(40, 100, 200, 0.4);
+	position:fixed;
+	line-height: 1em;
+	width: 115%;
+	height: 115%;
+	padding:0;
+	z-index: -4;
+}
+
+.containerColumns {
+	display: flex;
+	flex-direction: ltr;
+	width: 115%;
+	/*height: 100%;*/
+	position: fixed;
+	/*overflow: hidden;*/
+	z-index: -10
+
+}
+
+.color5 {
+	color: rgba(230, 200, 40, 0.5);
+	position:fixed;
+	line-height: 0.8em;
+	width: 115%;
+	/*height: 115%;*/
+	padding:0;
+	z-index: -1;
+}
+
+/*.rectangle {
+    width: 15%;
+    height: 100%;
+    background: rgb(234, 100, 36);
+    z-index: -10;
+    top: 0px;
+}
+*/
+.makeColumns {
+	flex: 1;
+	flex-basis: 40%;
+	flex: wrap;
+	width: 70%;
+	/*height: 100%;*/
+	margin: -20%;
+	position: relative;
+	box-sizing: border-box;
+	text-align: center;
+	z-index: -20;
+}
+
+.canvasContainer {
+	width: 150%;
+	height: 150%;
+	position: fixed;
+	z-index: -30;
+	margin: 0;
+}
+
+#sketch-holder {
+	/*vertical-align: top;*/
+	width: 100%;
+	/*/*position: fixed;*/
+	position: absolute;
+	/*right: 2000px;*/
+	z-index: -30;
+	/*padding: 0;*/
+}
